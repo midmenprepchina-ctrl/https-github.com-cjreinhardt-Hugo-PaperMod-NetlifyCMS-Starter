@@ -4,6 +4,16 @@ date: 2025-10-27T10:00:00+08:00
 tags: ["ChatGPT","Atlas","AI浏览器","Agent"]
 categories: ["资讯"]
 draft: false
+images: ["/images/atlas/QQ截图20251027213413.png"]
+cover:
+  image: "/images/atlas/QQ截图20251027213413.png"
+  alt: "ChatGPT Atlas 封面"
+  caption: ""
+  relative: false
+  hidden: false
+  hiddenInList: false
+  hiddenInSingle: false
+
 ---
 
 昨夜今晨，OpenAI正式上线了期待已久的AI浏览器——**ChatGPT Atlas**！如果你曾经在网页和AI助手窗口间来回切换、反复复制粘贴资料，Atlas的诞生绝对会让你眼前一亮：
