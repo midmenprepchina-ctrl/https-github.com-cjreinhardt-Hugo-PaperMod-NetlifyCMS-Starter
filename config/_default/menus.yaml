@@ -1,12 +1,18 @@
 main:
-  - name: "ChatGPT代升级服务"
-    url: "/services/"
+  # 顶级：ChatGPT代升级服务（必须有固定 identifier，供子菜单挂载）
+  - identifier: upgrade
+    name: ChatGPT代升级服务
+    url: /services/
     weight: 10
 
-  - name: "ChatGPT 使用指南"
-    url: "/guides/"
-    weight: 20
+  # 子菜单 1：GPT PLUS代升级
+  - name: GPT PLUS代升级
+    url: /services/plus/
+    parent: upgrade
+    weight: 11
 
-  - name: "ChatGPT-4o生图API，免费测试"
-    url: "/api-free/"
-    weight: 30
+  # 子菜单 2：API KEY代充值
+  - name: API KEY代充值
+    url: /services/api-key/
+    parent: upgrade
+    weight: 12
