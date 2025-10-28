@@ -60,11 +60,7 @@ languages:
           category: FAcategories
           tag: FAtags
           series: FAseries
-        menu:
-            main:
-                - name: FATags
-                  url: fatags
-                  weight: 10
+       
 
 outputs:
     home:
