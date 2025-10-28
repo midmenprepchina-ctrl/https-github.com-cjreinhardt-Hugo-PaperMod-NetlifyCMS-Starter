@@ -47,7 +47,7 @@ languages:
                   url: posts
                 - name: Profile Mode
                   url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-        menu:
+   
             main:
                 - name: Archive
                   url: archives/
@@ -75,7 +75,7 @@ languages:
           category: FAcategories
           tag: FAtags
           series: FAseries
-        menu:menu:
+
   main:
     # 如果你还需要原来的 FAtags 菜单，就保留；不需要可以删掉
     - name: FAtags
