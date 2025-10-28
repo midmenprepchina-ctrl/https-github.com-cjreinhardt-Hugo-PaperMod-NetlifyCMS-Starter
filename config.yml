@@ -24,7 +24,22 @@ languages:
           category: categories
           tag: tags
           series: series
-       
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: WiKi
+                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+                - name: Discord
+                  url: https://discord.gg/ahpmTvhVmp
+
     fr:
         languageName: ":fr:"
         languageAltTitle: French
@@ -47,7 +62,7 @@ languages:
                   url: posts
                 - name: Profile Mode
                   url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-   
+        menu:
             main:
                 - name: Archive
                   url: archives/
@@ -75,77 +90,11 @@ languages:
           category: FAcategories
           tag: FAtags
           series: FAseries
-
-  main:
-    # 如果你还需要原来的 FAtags 菜单，就保留；不需要可以删掉
-    - name: FAtags
-      url: fatags
-      weight: 10
-
-    # ① 父：ChatGPT代升级服务
-    - identifier: upgrade
-      name: ChatGPT代升级服务
-      url: /services/
-      weight: 20
-
-    # ① 子：美区 Plus 代开 / Team / 充值与续费
-    - identifier: upgrade-plus
-      name: 美区 Plus 代开
-      url: /services/plus-us/
-      parent: upgrade
-      weight: 21
-    - identifier: upgrade-team
-      name: Team 套餐开通
-      url: /services/team/
-      parent: upgrade
-      weight: 22
-    - identifier: upgrade-renew
-      name: 充值与续费
-      url: /services/renew/
-      parent: upgrade
-      weight: 23
-
-    # ② 父：ChatGPT 使用指南（用分类页做入口）
-    - identifier: guide
-      name: ChatGPT 使用指南
-      url: /categories/使用指南/
-      weight: 30
-    - identifier: guide-start
-      name: 入门教程
-      url: /categories/入门教程/
-      parent: guide
-      weight: 31
-    - identifier: guide-pay
-      name: 充值/支付
-      url: /categories/充值-支付/
-      parent: guide
-      weight: 32
-    - identifier: guide-faq
-      name: 常见问题
-      url: /categories/常见问题/
-      parent: guide
-      weight: 33
-
-    # ③ 父：ChatGPT-4o生图API，免费测试
-    - identifier: api4o
-      name: ChatGPT-4o生图API，免费测试
-      url: /api/
-      weight: 40
-    - identifier: api-doc
-      name: API 文档
-      url: /api/docs/
-      parent: api4o
-      weight: 41
-    - identifier: api-free
-      name: 免费额度说明
-      url: /api/free/
-      parent: api4o
-      weight: 42
-    - identifier: api-play
-      name: 在线测试
-      url: /api/playground/
-      parent: api4o
-      weight: 43
+        menu:
+            main:
+                - name: FATags
+                  url: fatags
+                  weight: 10
 
 outputs:
     home:
