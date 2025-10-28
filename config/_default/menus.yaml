@@ -1,0 +1,60 @@
+main:
+  - identifier: upgrade
+    name: ChatGPT代升级服务
+    url: /services/
+    weight: 20
+  - identifier: upgrade-plus
+    name: 美区 Plus 代开
+    url: /services/plus-us/
+    parent: upgrade
+    weight: 21
+  - identifier: upgrade-team
+    name: Team 套餐开通
+    url: /services/team/
+    parent: upgrade
+    weight: 22
+  - identifier: upgrade-renew
+    name: 充值与续费
+    url: /services/renew/
+    parent: upgrade
+    weight: 23
+
+  - identifier: guide
+    name: ChatGPT 使用指南
+    url: /categories/使用指南/
+    weight: 30
+  - identifier: guide-start
+    name: 入门教程
+    url: /categories/入门教程/
+    parent: guide
+    weight: 31
+  - identifier: guide-pay
+    name: 充值/支付
+    url: /categories/充值-支付/
+    parent: guide
+    weight: 32
+  - identifier: guide-faq
+    name: 常见问题
+    url: /categories/常见问题/
+    parent: guide
+    weight: 33
+
+  - identifier: api4o
+    name: ChatGPT-4o生图API，免费测试
+    url: /api/
+    weight: 40
+  - identifier: api-doc
+    name: API 文档
+    url: /api/docs/
+    parent: api4o
+    weight: 41
+  - identifier: api-free
+    name: 免费额度说明
+    url: /api/free/
+    parent: api4o
+    weight: 42
+  - identifier: api-play
+    name: 在线测试
+    url: /api/playground/
+    parent: api4o
+    weight: 43
